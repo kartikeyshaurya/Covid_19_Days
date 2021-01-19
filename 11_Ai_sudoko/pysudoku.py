@@ -11,7 +11,7 @@ def play(values, result, history):
     size = width, height = 700, 700
     screen = pygame.display.set_mode(size)
 
-    background_image = pygame.image.load("./sudoku-board-bare.jpg").convert()
+    background_image = pygame.image.load("/sudoku-board-bare.jpg").convert()
 
     clock = pygame.time.Clock()
 
